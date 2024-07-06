@@ -20,11 +20,11 @@ header {
     width: 100%;
 }  
 
-header h1 {
+.header-title {
     margin-left: 20px;
 }
   
-header nav {
+.header-nav {
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -32,26 +32,26 @@ header nav {
     padding: 20px;
 }
 
-header nav ul {
+.header-nav ul {
     justify-content: center;
 }
 
-header nav ul li a {
+.header-nav ul li a {
     color: black;
 }
 
-nav ul {
+.nav-list {
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: flex;
 }
 
-nav ul li {
+.nav-list-item {
     margin-right: 40px; 
 }
 
-nav ul li a {
+.nav-list-item a {
     text-decoration: none;
 }
 
@@ -69,8 +69,9 @@ nav ul li a {
     height: 150px;
 }
 
-main section {
+.main-section {
     text-align: center;
+    margin-top: 20px;
 }
 
 .bg-color {
@@ -99,6 +100,46 @@ main section {
 .product-image  {
     width: 200px;
     height: auto;
+}
+
+/* productos.html */
+
+.btn-ver {
+    background-color: #a2ad6e;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.btn-ver:hover {
+    background-color: aquamarine;
+    color: black;
+}
+
+/* contactos.html */
+
+form {
+    background-color: #a2ad6e;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+}
+
+.btn-enviar {
+    background-color: #a2ad6e;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-transform: uppercase;
 }
 
 footer {
