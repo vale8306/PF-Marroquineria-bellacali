@@ -1,0 +1,26 @@
+
+.animacion {
+    animation-name: productos;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    animation-delay: 0;
+}
+
+@keyframes productos {
+    0% {
+        color: $black;
+    }
+
+    50% {
+        color: $verde;
+        transform: scale(2,1);
+    }
+
+    100% {
+        color: $black;
+    }
+}
+
+.text-center {
+    text-align: center;
+}

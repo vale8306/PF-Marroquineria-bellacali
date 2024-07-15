@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Sedan SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  background-color: #a2ad6e;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #eaeaea;
+  width: 100%;
+}
+
+.header-title {
+  margin-left: 20px;
+}
+
+.header-nav {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+.header-nav ul {
+  justify-content: center;
+}
+.header-nav ul li a {
+  color: black;
+}
+
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.nav-list .nav-list-item {
+  margin-right: 40px;
+}
+.nav-list .nav-list-item a {
+  text-decoration: none;
+}
+
+.nav-background {
+  background-color: #a2ad6e;
+}
+
+footer {
+  background-color: #a2ad6e;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  border-top: 2px solid #eaeaea;
+}
+
+.btn-ver, .btn-enviar {
+  background-color: #a2ad6e;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+.btn-ver:hover {
+  background-color: aquamarine;
+  color: black;
+}
+
+.carousel {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form {
+  background-color: #a2ad6e;
+  padding: 20px;
+  border-radius: 10px;
+}
+form .form-label {
+  font-weight: bold;
+}
+form .form-control {
+  width: 100%;
+  padding: 10px;
+}
+
+.btn-enviar {
+  background-color: #a2ad6e;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+.logo, .logo-ig {
+  height: 150px;
+  width: 150px;
+}
+
+.animacion {
+  animation-name: productos;
+  animation-iteration-count: infinite;
+  animation-duration: 6s;
+  animation-delay: 0;
+}
+
+@keyframes productos {
+  0% {
+    color: black;
+  }
+  50% {
+    color: #a2ad6e;
+    transform: scale(2, 1);
+  }
+  100% {
+    color: black;
+  }
+}
+.text-center {
+  text-align: center;
+}
+
+.bg-color {
+  background-color: #a2ad6e;
+  padding: 15px;
+  border-radius: 5px;
+  background: rgb(162, 173, 110);
+  background: linear-gradient(90deg, rgb(162, 173, 110) 9%, rgb(195, 202, 166) 59%, rgb(162, 173, 110) 91%);
+}
+
+.main-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Mobile  */
+@media (max-width: 576px) {
+  .logo, .logo-ig {
+    width: 100px;
+    height: 100px;
+  }
+  .nav-list-item {
+    margin-right: 20px;
+  }
+  .header-nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn-ver {
+    width: 100%;
+  }
+  form {
+    padding: 10px;
+  }
+}
+/* Tablet  */
+@media (min-width: 577px) and (max-width: 768px) {
+  .logo, .logo-ig {
+    width: 120px;
+    height: 120px;
+  }
+  .nav-list-item {
+    margin-right: 30px;
+  }
+  .header-nav ul {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .btn-ver {
+    width: auto;
+  }
+  form {
+    padding: 15px;
+  }
+}
+/* Desktop  */
+@media (min-width: 769px) {
+  .logo, .logo-ig {
+    width: 150px;
+    height: 150px;
+  }
+  .nav-list-item {
+    margin-right: 40px;
+  }
+  .header-nav ul {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .btn-ver {
+    width: auto;
+  }
+  form {
+    padding: 20px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

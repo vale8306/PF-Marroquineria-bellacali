@@ -1,0 +1,31 @@
+header {
+    background-color: $verde;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid $border-bottom;
+    width: 100%;
+}  
+
+.header-title {
+    margin-left: 20px;
+}
+  
+.header-nav {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+
+    ul {
+        justify-content: center;
+
+        li {
+         a {
+            color: $black;
+         }
+     }
+  }
+}
+
+

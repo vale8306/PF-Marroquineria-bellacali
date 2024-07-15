@@ -1,0 +1,15 @@
+$verde:  #a2ad6e;
+$border-bottom: #eaeaea;
+$black: black;
+$font-family: "Sedan SC", serif;
+
+@mixin btn-styles {
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+@mixin sizes($ancho, $alto) {
+    height: $alto;
+    width: $ancho;
+}

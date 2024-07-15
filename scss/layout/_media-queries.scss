@@ -1,0 +1,74 @@
+/* Mobile  */
+@media (max-width: 576px) {
+    .logo, .logo-ig {
+      width: 100px;
+      height: 100px;
+    }
+  
+    .nav-list-item {
+      margin-right: 20px;
+    }
+  
+    .header-nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .btn-ver {
+      width: 100%;
+    }
+  
+    form {
+      padding: 10px;
+    }
+  }
+  
+  /* Tablet  */
+@media (min-width: 577px) and (max-width: 768px) {
+    .logo, .logo-ig {
+      width: 120px;
+      height: 120px;
+    }
+  
+    .nav-list-item {
+      margin-right: 30px;
+    }
+  
+    .header-nav ul {
+      flex-direction: row;
+      justify-content: center;
+    }
+  
+    .btn-ver {
+      width: auto;
+    }
+  
+    form {
+      padding: 15px;
+    }
+  }
+  
+  /* Desktop  */
+  @media (min-width: 769px) {
+    .logo, .logo-ig {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .nav-list-item {
+      margin-right: 40px;
+    }
+  
+    .header-nav ul {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .btn-ver {
+      width: auto;
+    }
+  
+    form {
+      padding: 20px;
+    }
+  }

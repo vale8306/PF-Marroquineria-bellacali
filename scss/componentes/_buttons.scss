@@ -1,0 +1,11 @@
+.btn-ver, .btn-enviar {
+    background-color: $verde;
+    color: white;
+    @include btn-styles;
+}
+
+.btn-ver:hover {
+    background-color: aquamarine;
+    color: $black;
+}
+

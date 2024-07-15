@@ -1,0 +1,21 @@
+@import "./configuraciones/variables";
+@import './configuraciones/reset';
+@import './configuraciones/tipografia';
+@import './configuraciones/mixins';
+
+@import './layout/header';
+@import './layout/navegacion';
+@import './layout/footer';
+
+@import './componentes/buttons';
+@import './componentes/carousel';
+@import "./componentes/form";
+@import "./componentes/logo";
+
+@import "./pages/productos";
+@import "./pages/index";
+
+@import './layout/media-queries';
+
+
+

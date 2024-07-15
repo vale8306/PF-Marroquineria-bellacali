@@ -1,0 +1,20 @@
+form {
+    background-color: $verde;
+    padding: 20px;
+    border-radius: 10px;
+
+    .form-label {
+        font-weight: bold;
+    }
+    
+    .form-control {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+.btn-enviar {
+    background-color: $verde;
+    color: white;
+    @include btn-styles
+}
